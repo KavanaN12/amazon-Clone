@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon mini project</title>
+    <style>
+        body{
+            background-color: #b2b2b3;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            height: 60px;
+        }
+        .hicon{
+            background-image: url("amazonlogop.png");
+            background-size: cover;
+            height: 34px;
+            width: 100px;
+            margin: 10px;
+        }
+        .hplace,.hello,.returns,.cart{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: small;
+            text-align: left;
+        }
+        .hplace{
+            margin: 10px;
+        }
+        .add2,.hellobold,.returnorder,.carts{
+            font-weight: 800;
+            font-size: medium;
+            text-align: left;
+        }
+        .searchbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 650px;
+            height: 43px;
+            background-color: white;
+            margin: 8px;
+            border-radius: 5px;
+        }
+        .selectbox{
+            border: 0;
+            height: 100%;
+            border-radius: 5px;
+            width: 55px;
+            text-align: center;
+            font-size: medium;
+            background-color: rgb(221, 224, 227);
+        }
+        .searchbox{
+            width: 550px;
+            border: 0;
+            height: 90%;
+            border-radius: 5px;
+            font-size: larger;
+        }
+        .iconsearch{
+            background-color: orange;
+            width: 55px;
+            height: 100%;
+            margin-right: 5px;
+        }
+        .hellobar,.return{
+            margin-top: 9px;
+            text-align: left;
+            margin-bottom: 8px;
+            padding-top: 5px;
+        }
+        .carticon{
+            width: 55px;
+        }
+        .hicon:hover,.hplace:hover,.hellobar:hover,.return:hover,.cart:hover{
+            border: 2px solid white;
+            border-radius: 3px;
+        }
+        .cart{
+            margin: 10px;
+        }
+        .searchbar:hover{
+            border: 2px solid orange;
+        }
+        .navbar{
+            background-color: #222f3d;
+            height: 40px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navbar a{
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        #rightalign{
+            margin-left: 700px;
+            font-weight: 800;
+            padding-right: 30px;
+        }
+        .statusbar{
+            background-image: url("amazonfirst.jpg");
+            background-size: cover;
+            height: 360px;
+            display: flex;
+            justify-content: center;
+        }
+        .statusbar p{
+            display: block;
+            width: 90%;
+            height: 30px;
+            background-color: white;
+            position: relative;
+            top:280px;
+            text-align: center;
+            font-size: large;
+            padding-top: 10px;
+        }
+        .statusbar p a{
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            border: 2px solid white;
+        }
+        .first{
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+        #fsent{
+            padding: 0%;
+            margin: 2%;
+            font-size: 1.6rem;
+            font-weight: 800;
+        }
+        #fhash{
+            text-decoration: none;
+            padding-left: 3%;
+            position: relative;
+            bottom: 10px;
+            padding-top: 0%;
+            margin: 0%;
+        }
+        .fstpic{
+            height: 300px;
+            background-image: url('amazond2.jpg');
+        }
+        .sndpic{
+            height: 300px;
+            background-image: url('amazond1.jpg');
+        }
+        .trdpic{
+            height: 300px;
+            background-image: url('amazonimg3.jpg');
+        }
+        .fthpic{
+            height: 300px;
+            background-image: url('amazonimgn6.jpg');
+        }
+        .fone{
+            width: 25%;
+            background-color: white;
+            margin: 5px;
+            border: 2px solid white;
+            height: 375px;
+        }
+    </style>
+</head>
+<header>
+    <div class="header">
+        <div class="hicon"></div>
+        <div class="hplace">
+            <p>Deliver to</p>
+            <div class="add-ico">
+                <i class="fa-solid fa-location-dot"></i>&nbsp;
+                <p class="add2">India</p>
+            </div>
+        </div>
+        <div class="searchbar">
+            
+                <select name="All" class="selectbox">
+                    <option value="All">All</option>
+                </select>
+            
+            <input type="text" class="searchbox" placeholder="Search Amazon">
+            <div class="iconsearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="hellobar">
+            <div class="hello">Hello,Signin</div>
+            <div class="hellobold">Accounts And Lists</div>
+        </div>
+        <div class="return">
+            <div class="returns">Returns</div>
+            <div class="returnorder">& Orders</div>
+        </div>
+        <div class="cart">
+            <div class="carts">Cart</div>
+            <div class="carticon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="navbar">
+        <a href="#">All</a>
+        <a href="#">Today's Deal</a>
+        <a href="#">Costumer Service</a>
+        <a href="#">Register</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Sell</a>
+        <a href="#" id="rightalign">Shop Deals in Electronics</a>
+    </div>
+    <div class="statusbar">
+        <p>Shop your favorite products from anywhere,anytime,just by 
+            visiting our website, free delivery for your frist Order 
+            and easy Returns. <a href="#">Click here to check our special 
+                deals...</a></p>
+    </div>
+    <div class="first">
+        <div class="fone">
+            <p id="fsent">Find Your Laptop</p>
+            <div class="fstpic"></div>
+            <p><a href="#" id="fhash">See more</a></p>
+        </div>
+        <div class="fone">
+            <p id="fsent">Daily Asseceries</p>
+            <div class="sndpic"></div>
+            <p><a href="#" id="fhash">See more</a></p>
+        </div>
+        <div class="fone">
+            <p id="fsent">Toys under $50</p>
+            <div class="trdpic"></div>
+            <p><a href="#" id="fhash">See more</a></p>
+        </div>
+        <div class="fone">
+            <p id="fsent">Electronic gagets</p>
+            <div class="fthpic"></div>
+            <p><a href="#" id="fhash">See more</a></p>
+        </div>
+    </div>
+</body>
+</html>

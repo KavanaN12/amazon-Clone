@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="a.css">
+</head>
+<header>
+    <div class="fnavbar">
+        <div class="ffnav">
+            <div class="ffpic"></div>
+            <p id="ffsent">.in</p>
+        </div>
+        <div class="fsloc">
+            <div class="add-ico">
+                <i class="fa-solid fa-location-dot"></i>&nbsp;
+            </div>
+            <div class="flocsen">
+                <p id="add1">Deliver to Chennai 740987</p>
+            <p class="add2">Update Location</p>
+            </div>
+        </div>
+        <div class="ftbar">
+            <select id="ftselec">
+                <option>All</option>
+            </select>
+            <input type="text" id="ftsearch" placeholder="Search Amazon.in">
+            <div class="iconsearch">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="fflang">
+            <div class="ffcoun"></div>
+            <select name="ffer" id="fflangsel">
+                <option value="dfdf">EN</option>
+            </select>
+        </div>
+        <div class="ffsen1">
+            <p id="ffsen11">Hello, sign in</p>
+            <select id="ffsen12" name="sel">
+                <option>Accounts and Lists</option>
+            </select>
+        </div>
+        <div class="ffsen2">
+            <p id="ffsen21">Returns</p>
+            <p id="ffsen22">& Orders</p>
+        </div>
+        <div class="cart">
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </div>
+    <div class="snavbar">
+        <div class="sall">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="sallsen">All</div>
+        </div>
+        <div class="sfresh">
+            <select name="sfresh" id="sfsel">
+                <option value="gdd">Fresh</option>
+            </select>
+        </div>
+        <div class="samt"><a href="#">Amazon miniTV</a></div>
+        <div class="ssell"><a href="#">Sell</a></div>
+        <div class="sbs"><a href="#">Best Sellers</a></div>
+        <div class="std"><a href="#">Today's Deals</a></div>
+        <div class="smob"><a href="#">Mobiles</a></div>
+        <div class="scs"><a href="#">Customer Service</a></div>
+        <div class="sprime">
+            <select name="sele" id="sprimesel">
+                <option value="ert">Prime</option>
+            </select>
+        </div>
+        <div class="selec"><a href="#">Electronics</a></div>
+        <div class="sfashion"><a href="#">Fashion</a></div>
+        <div class="snr"><a href="#">New Releases</a></div>
+        <div class="shak"><a href="#">Home & Kitchen</a></div>
+        <div class="sap"><a href="#">Amazon Pay</a></div>
+        <div class="scom"><a href="#">Computers</a></div>
+        <div class="scam"><a href="#">Car & Motorbike</a></div>
+    </div>
+    <div class="tnavbar">
+        <div class="electronics"><a href="#" style="font-weight: 700; font-size: medium;">Electronics</a></div>
+        <div class="maacc"><a href="mobile.html">Mobile & Accessories</a></div>
+        <div class="lapaacc"><a href="#">Laptops & Accessories</a></div>
+        <div class="tvaent"><a href="#">TV & Home Entertainment</a></div>
+        <div class="audio"><a href="#">Audio</a></div>
+        <div class="cameras"><a href="#">Cameras</a></div>
+        <div class="comper"><a href="#">Computer Peripherals</a></div>
+        <div class="srttech"><a href="#">Smart Technology</a></div>
+        <div class="mscinst"><a href="#">Musical Instruments</a></div>
+        <div class="offastat"><a href="#">Office & Stationery</a></div>
+    </div>
+</header>
+<body>
+    <div class="bodywing">
+    <div class="leftwing">
+        <div class="category">Category</div>
+        <div class="electronics categories"><a href="#" style="font-weight: 700;">< Electronics</a></div>
+        <div class="maacc categories"><a href="mobile.html">Mobile & Accessories</a></div>
+        <div class="lapaacc categories"><a href="#">Laptops & Accessories</a></div>
+        <div class="tvaent categories"><a href="#">TV & Home Entertainment</a></div>
+        <div class="audio categories"><a href="#">Audio</a></div>
+        <div class="cameras categories"><a href="#">Cameras</a></div>
+        <div class="comper categories"><a href="#">Computer Peripherals</a></div>
+        <div class="srttech categories"><a href="#">Smart Technology</a></div>
+        <div class="mscinst categories"><a href="#">Musical Instruments</a></div>
+        <div class="offastat categories"><a href="#">Office & Stationery</a></div>
+        <div class="mfabdiv">
+            <div class="mfab">Made for Amazon Brands</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Made for Amazon</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Amazon Prime</div>
+            <div id="primecheck"><input type="checkbox" value="made for amazon"><p id="prchmk">&checkmark;</p><p id="prchpr">prime</p></div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Delivery Day</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Get it by Tomorrow</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Pay on Delivery</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Eligible for Pay On Delivery</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Brand</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">iQOO</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Redmi</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Ambrane</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Nokia</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">realme</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Apple</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Samsung</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Avg. Customer Review</div>
+           <div class="ratingsbox">
+            <div class="ratings">&starf;&starf;&starf;&starf;&star;<p id="rattext"> & Up </p></div>
+            <div class="ratings">&starf;&starf;&starf;&star;&star;<p id="rattext"> & Up </p></div>
+            <div class="ratings">&starf;&starf;&star;&star;&star;<p id="rattext"> & Up </p></div>
+            <div class="ratings">&starf;&star;&star;&star;&star;<p id="rattext"> & Up </p></div>
+           </div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">New Arrivals</div>
+            <div id="mfabcheck">Last 30 Days</div>
+            <div id="mfabcheck">Last 60 Days</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Item Condition</div>
+            <div id="mfabcheck">New</div>
+            <div id="mfabcheck">Renewed</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Price</div>
+            <div id="mfabcheck">below &#8377 1,000</div>
+            <div id="mfabcheck">&#8377 1,000- &#8377 5,000</div>
+            <div id="mfabcheck">&#8377 5,000- &#8377 10,000</div>
+            <div id="mfabcheck">&#8377 10,000- &#8377 20,000</div>
+            <div id="mfabcheck">Over &#8377 20,000</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Deals and Discounts</div>
+            <div id="mfabcheck">All Discounts</div>
+            <div id="mfabcheck">Today's Deals</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Discount</div>
+            <div id="mfabcheck">10% Off or more</div>
+            <div id="mfabcheck">25% Off or more</div>
+            <div id="mfabcheck">35% Off or more</div>
+            <div id="mfabcheck">50% Off or more</div>
+            <div id="mfabcheck">60% Off or more</div>
+            <div id="mfabcheck">70% Off or more</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Seller</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Cocoblu Retail</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Clicktech Business</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Clicktech Retail Private Ltd</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">TheGiftKart</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Spigen India</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Coberta Productive Accessories</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">KARWAN</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">GlassVerse</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">DIZORO</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">REALCASE INDIA</div>
+        </div>
+        <div class="mfabdiv">
+            <div class="mfab">Availability</div>
+            <div id="mfabcheck"><input type="checkbox" value="made for amazon">Include Out of Stock</div>
+        </div>
+    </div>
+    <div class="rightwing">
+        <div class="bars">
+            <div class="fbar">Accessories</div>
+            <div class="sbar">OnePlus Nord 4</div>
+        </div>
+        <div class="sbars">
+            <div class="sbarsf">
+                    <p id="sbar1">India's Most <b>trusted</b><br>
+                    <b>destination for buying</b> smartphone
+            </div>
+            <div class="sbarsfs">
+                * As per India Smartphone Consumer Survey, Counterpoint Research, June 24
+            </div>
+        </div>
+        <div class="lbars">
+            <div class="lbarf"></div>
+        </div>
+        <div class="l2bars">
+            <b>Latest launches in Mobiles and Accessories</b>
+            <div class="l2flex">
+                <div class="l21" id="l211"></div>
+                <div class="l21" id="l212"></div>
+                <div class="l21" id="l213"></div>
+                <div class="l21" id="l214"></div>
+                <div class="l21" id="l215"></div>
+                <div class="l21" id="l216"></div>
+            </div>
+        </div>
+        <div class="adv"></div>
+        <div class="asp">
+            <b>Amazon Smart Phones</b>
+            <div class="asp1">
+                <div class="l31"></div>
+                <div class="l32"></div>
+                <div class="l34"></div>
+                <div class="l35"></div>
+                <div class="l36"></div>
+            </div>
+        </div>
+        <div class="l4bars">
+            <div class="topDoW">Top Deals of the Week</div>
+            <div class="l4flex">
+                <div class="l41" id="l411"></div>
+                <div class="l41" id="l412"></div>
+                <div class="l41" id="l413"></div>
+                <div class="l41" id="l414"></div>
+                <div class="l41" id="l415"></div>
+                <div class="l41" id="l416"></div>
+            </div>
+            <div class="l5flex">
+                <div class="l51" id="l511"></div>
+                <div class="l51" id="l512"></div>
+                <div class="l51" id="l513"></div>
+                <div class="l51" id="l514"></div>
+                <div class="l51" id="l515"></div>
+                <div class="l51" id="l516"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="clmn1">
+            <div class="p1">
+                <div class="p11"><div class="p111"></div></div>
+                <div class="p12">Sponsored <p id="p12icon">&iopf;</p></div>
+                <div class="p13">Racold BUONO PRO Storage Water Herater
+                     25L -Free Stantard Installation &Pipes, 5 Star Rated, 
+                     ABS Body Verticle Geyser for Bathroom, 3 Safety Levels, Rust Proof...
+                </div>
+                <div class="p14rat">
+                    <select name="ratirngs" id="ratingitem" class="ratings">
+                        <option value="r1" selected>&starf;&starf;&starf;&starf;&star;</option>
+                        <option value="r2">&starf;&starf;&starf;&star;&star;</option>
+                        <option value="r3">&starf;&starf;&star;&star;&star;</option>
+                        <option value="r4">&starf;&star;&star;&star;&star;</option>
+                    </select>
+                    <div class="rate">1,837</div>
+                </div>
+                <div class="p15">
+                    <div class="ammount">&#8377 7,499&nbsp;</div>
+                    <div class="mrp">M.R.P:&nbsp;<del>&#8377 11,849</del></div>&nbsp;
+                    <div class="disc">(37% off)</div>
+                </div>
+                <div id="primecheck"><p id="prchmk">&checkmark;</p><p id="prchpr">prime</p></div>
+                <div class="p17">Free Delivery by Amazon</div>
+                <div class="p18">Service: Installation</div>
+            </div>
+            <div class="p1">
+                <div class="p11"><div class="p211"></div></div>
+                <div class="p12">Sponsored <p id="p12icon">&iopf;</p></div>
+                <div class="p13">amazon basics AmazonBasics AAA Performance Alkaline Batterries 
+                    (20-Pack) - Appearance May Vary
+                </div>
+                <div class="p14rat">
+                    <select name="ratirngs" id="ratingitem" class="ratings">
+                        <option value="r1" selected>&starf;&starf;&starf;&starf;&star;</option>
+                        <option value="r2">&starf;&starf;&starf;&star;&star;</option>
+                        <option value="r3">&starf;&starf;&star;&star;&star;</option>
+                        <option value="r4">&starf;&star;&star;&star;&star;</option>
+                    </select>
+                    <div class="rate">691,975</div>
+                </div>
+                <div class="extra">2K+ brought in past month</div>
+                <div class="ltd">Limited Time deal</div>
+                <div class="p15">
+                    <div class="ammount">&#8377 299&nbsp;</div>
+                    <div class="mrp">(&#8377 14.95/count) M.R.P:&nbsp;<del>&#8377 405</del></div>&nbsp;
+                    <div class="disc">(40% off)</div>
+                </div>
+                <div class="deliv">Get it by Tomorrow, 3 September</div>
+                <div class="p17">Free Delivery by Amazon</div>
+            </div>
+            <div class="p1">
+                <div class="p11"><div class="p311"></div></div>
+                <div class="p12">Sponsored <p id="p12icon">&iopf;</p></div>
+                <div class="p13">WeCool S1 Selfie Stick with Tripod Stand, Bluetooth 
+                    Extendable Tripad for Mobile Phone,3-in-1 Multifunctional Selfie Stick for...
+                </div>
+                <div class="p14rat">
+                    <select name="ratirngs" id="ratingitem" class="ratings">
+                        <option value="r1" selected>&starf;&starf;&starf;&starf;&star;</option>
+                        <option value="r2">&starf;&starf;&starf;&star;&star;</option>
+                        <option value="r3">&starf;&starf;&star;&star;&star;</option>
+                        <option value="r4">&starf;&star;&star;&star;&star;</option>
+                    </select>
+                    <div class="rate">20,770</div>
+                </div>
+                <div class="extra">1K+ brought in past month</div>
+                <div class="ltd">Limited Time deal</div>
+                <div class="p15">
+                    <div class="ammount">&#8377 499&nbsp;</div>
+                    <div class="mrp">(&#8377 14.95/count) M.R.P:&nbsp;<del>&#8377 1,599</del></div>&nbsp;
+                    <div class="disc">(72% off)</div>
+                </div>
+                <div class="deliv">Get it by Tomorrow, 3 September</div>
+                <div class="p17">Free Delivery by Amazon</div>
+            </div>
+        </div>
+        <div class="clmn1">
+            <div class="p1">
+                <div class="p11"><div class="p411"></div></div>
+                <div class="p12">Sponsored <p id="p12icon">&iopf;</p></div>
+                <div class="p13">Amazon Basics USB Type-C to RJ45
+                    Ethernet LAN Adapter, Up to 10/100/1000 Mbps, for Windiws
+                    11/10/8.1/8, macOS, iPadOS,Chrime OS...
+                </div>
+                <div class="p14rat">
+                    <select name="ratirngs" id="ratingitem" class="ratings">
+                        <option value="r1">&starf;&starf;&starf;&starf;&star;</option>
+                        <option value="r2" selected>&starf;&starf;&starf;&star;&star;</option>
+                        <option value="r3">&starf;&starf;&star;&star;&star;</option>
+                        <option value="r4">&starf;&star;&star;&star;&star;</option>
+                    </select>
+                    <div class="rate">2,155</div>
+                </div>
+                <div class="extra">500+ brought in past month</div>
+                <div class="ltd">Limited Time deal</div>
+                <div class="p15">
+                    <div class="ammount">&#8377 7,499&nbsp;</div>
+                    <div class="mrp">M.R.P:&nbsp;<del>&#8377 11,849</del></div>&nbsp;
+                    <div class="disc">(37% off)</div>
+                </div>
+                <div id="primecheck"><p id="prchmk">&checkmark;</p><p id="prchpr">prime</p><p>Get it by Tomorrow,3 September</p></div>
+                <div class="p17">Free Delivery by Amazon</div>
+            </div>
+            <div class="p1">
+                <div class="p11"><div class="p511"></div></div>
+                <div class="p13a">Business Today- 27th December 2020</div>
+                <div class="p13i">
+                    <p id="p13ia">by&nbsp;</p>
+                    <p id="p13ib">Business Today Editorial Team</p>
+                </div>
+                <div class="p14rat">
+                    <select name="ratirngs" id="ratingitem" class="ratings">
+                        <option value="r1" selected>&starf;&starf;&starf;&starf;&star;</option>
+                        <option value="r2">&starf;&starf;&starf;&star;&star;</option>
+                        <option value="r3">&starf;&starf;&star;&star;&star;</option>
+                        <option value="r4">&starf;&star;&star;&star;&star;</option>
+                    </select>
+                    <div class="rate">421</div>
+                </div>
+                <p id="p13ib">Kindle Edition</p>
+                <div class="p15">
+                    <div class="ammount">&#8377 0&nbsp;</div>
+                </div>
+                <div class="p17">Available instantly</div>
+            </div>
+            <div class="p1">
+                <div class="p11"><div class="p611"></div></div>
+                <div class="p13a">Amazon Global Selling Exports Digest 2023</div>
+                <div class="extra" style="padding: 5px;">500+ brought in past month</div>
+                <div class="p14rat">
+                    <select name="ratirngs" id="ratingitem" class="ratings">
+                        <option value="r1" selected>&starf;&starf;&starf;&starf;&star;</option>
+                        <option value="r2">&starf;&starf;&starf;&star;&star;</option>
+                        <option value="r3">&starf;&starf;&star;&star;&star;</option>
+                        <option value="r4">&starf;&star;&star;&star;&star;</option>
+                    </select>
+                    <div class="rate">10</div>
+                </div>
+                <p id="p13ib">Kindle Edition</p>
+                <div class="p15">
+                    <div class="ammount">&#8377 0&nbsp;</div>
+                </div>
+                <div class="p17">Available instantly</div>
+            </div>
+        </div>
+        <div class="navlast">
+            <div class="navl1"><a href="#">< Previous</a></div>
+            <div class="navl2" id="navin"><a href="#">1</a></div>
+            <div class="navl2"><a href="#">2</a></div>
+            <div class="navl2"><a href="#">3</a></div>
+            <div class="navl2"><a href="#">...</a></div>
+            <div class="navl2"><a href="#">7</a></div>
+            <div class="navl3"><a href="#">> Next</a></div>
+        </div>
+        <hr>
+        <div class="endclmn">
+            <div class="sen">Brands Related to Your Search</div>
+            <div class="p12" id="spnend">Sponsored <p id="p12icon">&iopf;</p></div>
+            <div class="endclmnr">
+            <div class="end1">
+                <div class="end1pic"></div>
+                <div class="endset">
+                <div class="end1set">
+                    <p id="simple">bo</p>
+                    <p id="design">&Ascr;</p>
+                    <p id="simple">t</p>
+                </div>
+                </div>
+            </div>
+            <div class="end1">
+                <div class="end2pic"></div>
+                <div class="endset">
+                <div class="end1set">
+                    <p id="simple">bo</p>
+                    <p id="design">&Ascr;</p>
+                    <p id="simple">t</p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="ndhelp">
+                <div class="sen">Need help?</div>
+                <p class="sen2">visit the help section <g>&nbsp; or&nbsp;</g> contact us</p>
+            </div> 
+        </div>
+    </div>
+    </div>
+    <div class="last">
+        <div class="lastset1">See Personalised Reccomandations</div>
+        <div class="lastset2">Sign In</div>
+        <div class="lastset3">New Customer? <blue>start here.</blue></div>
+    </div>
+    <footer>
+        <div class="foot1">
+            <a href="#" class="line2">Back to top</a>
+        </div>
+        <div class="foot2">
+            <div id="last"><b>Get to Know Us</b><br>
+                <a href="#" class="line2">Careers</a><br>
+                <a href="#" class="line2">Blog</a><br>
+                <a href="#" class="line2">About Amazon</a><br>
+                <a href="#" class="line2">Investor Relations</a><br>
+                <a href="#" class="line2">Amazon Devices</a><br>
+                <a href="#" class="line2">Amazon Science</a><br>
+            </div>
+            <div id="last"><b>Make Money with Us</b><br>
+            <a href="#" class="line2">Sell products on Amazon</a><br>
+            <a href="#" class="line2">Sell on Amazon Business</a><br>
+            <a href="#" class="line2">Sell apps on Amazon</a><br>
+            <a href="#" class="line2">Become an Affiliate</a><br>
+            <a href="#" class="line2">Advertise Your Products</a><br>
+            <a href="#" class="line2">Self-Publish with Us</a><br>
+            <a href="#" class="line2">Host an Amazon Hub</a><br>
+            <a href="#" class="line2">›See More Make Money with Us</a><br>
+            </div>
+            <div id="last"><b>Amazon Payment Products</b><br>
+                <a href="#" class="line2">Amazon Business Card</a><br>
+                <a href="#" class="line2">Shop with Points</a><br>
+                <a href="#" class="line2">Reload Your Balance</a><br>
+                <a href="#" class="line2">Amazon Currency Converter</a><br>
+            </div>
+            <div id="last1"><b>Let Us Help You</b><br>
+                <a href="#" class="line2">Amazon and COVID-19</a><br>
+                <a href="#" class="line2">Your Account</a><br>
+                <a href="#" class="line2">Your Orders</a><br>
+                <a href="#" class="line2">Shipping Rates & Policies</a><br>
+                <a href="#" class="line2">Returns & Replacements</a><br>
+                <a href="#" class="line2">Manage Your Conent And Devices</a><br>
+                <a href="#" class="line2">Amazon Assistant</a><br>
+                <a href="#" class="line2">Help</a><br>
+            </div>
+        </div>
+        <hr>
+        <div class="foot3">
+            <div class="foot3logo end"></div>
+            <div class="batch">
+                <div>
+                    <select id="lang">
+                        <option>English</option>
+                    </select>
+                </div>
+                <div id="country">
+                    <div id="india"></div>&nbsp;&nbsp;India
+                </div>
+            </div>
+        </div>
+        <div class="foot4">
+            <div class="foot41">
+            <div id="Amazon">
+                <a href="#" class="line3"><b id="bold">Amazon Music</b></a><br>
+                <a href="#" class="line3">Stream millions of songs</a><br>
+            </div>
+            <div id="Amazon">
+                <a href="#" class="line3"><b id="bold">Amazon Ads</b></a><br>
+                <a href="#" class="line3">Reach customers whenever they spend their time</a><br>
+            </div>
+            <div id="Amazon">
+                <a href="#" class="line3"><b id="bold">6pm</b></a><br>
+                <a href="#" class="line3">Score deals on fastion brands</a><br>
+            </div>
+            <div id="Amazon">
+                <a href="#" class="line3"><b id="bold">AbeBooks</b></a><br>
+                <a href="#" class="line3">Books,art, & collections</a><br>
+            </div>
+            <div id="Amazon">
+                <a href="#" class="line3"><b id="bold">ACX</b></a><br>
+                <a href="#" class="line3">Audiobook Publishing Made Easy</a><br>
+            </div>
+            <div id="Amazon">
+                <a href="#" class="line3"><b id="bold">Sell on Amazon</b></a><br>
+                <a href="#" class="line3">Start a Selling Account</a><br>
+            </div>
+            <div id="Amazon">
+                <a href="#" class="line3"><b id="bold">Amazon Bussiness</b></a><br>
+                <a href="#" class="line3">Everything For Your Business</a><br>
+            </div>
+            </div>
+            <div class="foot41">
+                <div id="Amazon">
+                    <a href="#" class="line3"><b id="bold">Amazon Web Series</b></a><br>
+                    <a href="#" class="line3">Scalable Cloud Computing Service</a><br>
+                </div>
+                <div id="Amazon">
+                    <a href="#" class="line3"><b id="bold">Audible</b></a><br>
+                    <a href="#" class="line3">Download Audio Books</a><br>
+                </div>
+                <div id="Amazon">
+                    <a href="#" class="line3"><b id="bold">IMDb</b></a><br>
+                    <a href="#" class="line3">Movies, TV & Celebrities</a><br>
+                </div>
+                <div id="Amazon">
+                    <a href="#" class="line3"><b id="bold">Shopbop</b></a><br>
+                    <a href="#" class="line3">Designer Fashion Brands</a><br>
+                </div>
+                <div id="Amazon">
+                    <a href="#" class="line3"><b id="bold">Prime Now</b></a><br>
+                    <a href="#" class="line3">2-Hour Delivery on Everyday Items</a><br>
+                </div>
+                <div id="Amazon">
+                    <a href="#" class="line3"><b id="bold">Amazon Pirme Music</b></a><br>
+                    <a href="#" class="line3">100 million songs, ad-free Over 15 million podcast episodes</a><br>
+                </div>
+            </div>
+            <div class="finish">
+            <div id="theend">
+                <div class="final"><a href="#" class="line31">conditions of use</a></div>
+                <div class="final"><a href="#" class="line31">privacy notice</a></div>
+                <div class="final"><a href="#" class="line31">your ads privacy choices &#x2611;</a></div>
+            </div>
+            <div id="theend">
+                <div class="final"><a href="#" class="line31">&copy;</a></div>
+                <div class="final"><a href="#" class="line31">1993-2023</a></div>
+                <div class="final"><a href="#" class="line31">0111-022-1237</a></div>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
